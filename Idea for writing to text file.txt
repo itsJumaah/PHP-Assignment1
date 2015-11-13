@@ -1,0 +1,101 @@
+since the $A collection is already in order I can use that to find the account numbers in 
+acending order and then use the acc numbers on the $UpdatedInfo object to write to the text file. 
+
+
+//$m=0; 
+//$checkAgainst;
+//$Lowest=2147483647;
+
+//while($UpdatedInfo->isNull($m) == false){
+//	$tempForSorting = $UpdatedInfo->getItem($m);
+//	$checkAgainst = $tempForSorting->getAccNum($m);
+//	if($checkAgainst < $Lowest){
+//		$Lowest = $checkAgainst;
+//	}
+//	$m+=1;
+//}
+//echo $Lowest;
+
+
+
+
+//$rows = 4; // define number of rows
+//$cols = 4;// define number of columns
+//$W=0;
+//$TempForPrinting = $InvalidTranz->getItem($W);
+//for($tr=1;$tr<=$rows;$tr++) {
+  //  echo "<tr>";
+   //     for($td=1;$td<=$cols;$td++) {
+    //           echo "<td>row: ".$tr." column: ".$td."</td>";
+      //  }
+ //   echo "</tr>";
+//}
+ 
+//echo "</table>";
+
+//while($InvalidTranz->isNull($n) == false)
+
+//$row = 4; //Dynamic number for rows
+//$col = 4; // Dynamic number for columns
+//echo "<table border='1'>";
+//echo "<th>Line #</th>";
+//echo "<th>ID</th>";
+//echo "<th>Type</th>";
+//echo "<th>Amount</th>";
+
+//for($i=0;$i<$row;$i++){	
+    //echo "<tr>";
+  //   for($j=0;$j<$col;$j++) {
+  //      echo "<td>";
+ //       echo "line";
+ //       echo "</td>";
+  //    }
+  //    echo "</tr>";
+	  
+ // }
+ // echo "</table>";
+
+//$i=0; 
+//while($i<=10){
+	
+	//echo "<tr><td>$i</td><td>$i</td></tr>";
+	
+	//$i+=1;
+//}
+//echo '</table>';
+
+
+
+
+
+
+
+
+
+
+
+//	$n=0;
+//	while($InvalidTranz->isNull($n) == false) { 
+//			$temp = $InvalidTranz->getItem($n);
+//			
+//			$tempPrint = $temp->returnLineNum();
+//			echo "<br>";
+//			echo $tempPrint;
+//			
+//			$tempPrint = $temp->getAccNum();
+//			echo "<br>";
+//			echo $tempPrint;
+//
+//			$tempPrint = $temp->returnAction();
+//			echo "<br>";
+//			echo $tempPrint;
+//			
+//			$tempPrint = $temp->returnAmount();
+//			echo "<br>";
+//			echo $tempPrint;
+//						
+//			echo "<br>";
+//			echo "<br>";
+//			echo "<br>";
+//			$n+=1;
+//	} 
